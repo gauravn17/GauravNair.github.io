@@ -6,17 +6,19 @@
     <title>Gaurav Nair - Portfolio</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.6;
         margin: 0;
         padding: 0;
-        background-color: #f4f4f4;
+        background-color: #f0f4f8;
+        color: #333;
       }
       header {
-        background-color: #333;
+        background: linear-gradient(to right, #004d99, #66ccff);
         color: #fff;
-        padding: 1rem 0;
+        padding: 2rem 0;
         text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
       nav {
         text-align: center;
@@ -25,26 +27,43 @@
       nav a {
         margin: 0 15px;
         text-decoration: none;
-        color: #333;
+        color: #004d99;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+      nav a:hover {
+        color: #66ccff;
       }
       section {
         padding: 20px;
-        margin: 10px;
+        margin: 20px auto;
         background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
       }
       h1, h2 {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        color: #004d99;
+      }
+      ul {
+        list-style-type: square;
+        padding-left: 20px;
       }
       footer {
         text-align: center;
         padding: 1rem 0;
-        background-color: #333;
+        background-color: #004d99;
         color: #fff;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
+        margin-top: 20px;
+        box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+      }
+      a {
+        color: #004d99;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -81,14 +100,14 @@
       <h2>Projects</h2>
       <ul>
         <li><strong>Bitcoin Price Prediction</strong>: A project involving data collection using Python, analysis with Pandas, and forecasting using Prophet.</li>
-        <li><strong>KNN-based Customer Segmentation</strong>: Customer Segmentation based on K-Nearest Neighbours (KNN) algorithm on the Telecust10000 dataset .</li>
+        <li><strong>KNN-based Customer Segmentation</strong>: Customer Segmentation based on K-Nearest Neighbours (KNN) algorithm on the Telecust10000 dataset.</li>
         <li><strong>Personal Portfolio Website</strong>: Designed and developed a personal portfolio website using HTML, CSS, and JavaScript.</li>
       </ul>
     </section>
     
     <section id="contact">
       <h2>Contact Me</h2>
-      <p>You can reach me at <a href="mailto:gnair@ucsd.edu">your.email@ucsd.edu</a> or connect with me on <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/gaurav-nair-148b40208/">LinkedIn</a>.</p>
+      <p>You can reach me at <a href="mailto:gnair@ucsd.edu">your.email@ucsd.edu</a> or connect with me on <a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a>.</p>
     </section>
     
     <footer>
@@ -96,3 +115,4 @@
     </footer>
   </body>
 </html>
+
